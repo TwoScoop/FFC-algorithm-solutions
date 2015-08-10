@@ -1,5 +1,8 @@
 function chunk(arr, size) {
-  // Break it up.
+  /* Write a function that splits an array (first argument) 
+  into groups the length of size (second argument) and 
+  returns them as a multidimensional array. */
+  
   var i = 0;
   var newArray = [];
   var finalArray = [];
