@@ -1,0 +1,8 @@
+function slasher(arr, howMany) {
+  // it doesn't always pay to be first
+  var newArray = arr.slice(howMany);
+  
+  return newArray;
+}
+
+slasher([1, 2, 3], 2);
